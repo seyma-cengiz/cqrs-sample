@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using BookStorage.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookStorage.Infrastructure
+namespace BookStorage.Infrastructureboo
 {
     public class BookStorageDbContext : DbContext
     {
