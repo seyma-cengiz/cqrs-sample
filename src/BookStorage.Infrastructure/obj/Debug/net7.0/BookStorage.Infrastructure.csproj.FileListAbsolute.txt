@@ -1,0 +1,15 @@
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\bin\Debug\net7.0\BookStorage.Infrastructure.deps.json
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\bin\Debug\net7.0\BookStorage.Infrastructure.dll
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\bin\Debug\net7.0\BookStorage.Infrastructure.pdb
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\bin\Debug\net7.0\BookStorage.Domain.dll
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\bin\Debug\net7.0\BookStorage.Domain.pdb
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.csproj.AssemblyReference.cache
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.AssemblyInfoInputs.cache
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.AssemblyInfo.cs
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.csproj.CoreCompileInputs.cache
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.csproj.CopyComplete
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.dll
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\refint\BookStorage.Infrastructure.dll
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\BookStorage.Infrastructure.pdb
+D:\work\netcore\BookStorage\src\BookStorage.Infrastructure\obj\Debug\net7.0\ref\BookStorage.Infrastructure.dll
