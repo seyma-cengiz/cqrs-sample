@@ -120,7 +120,7 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode
+.vscode/
 .vscode-test
 
 # yarn v2
@@ -130,5 +130,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-bin
-obj
+bin/
+debug/
+obj/
+.vs/
