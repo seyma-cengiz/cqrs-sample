@@ -133,4 +133,4 @@ dist
 bin/
 debug/
 obj/
-.vs/
+/.vs
