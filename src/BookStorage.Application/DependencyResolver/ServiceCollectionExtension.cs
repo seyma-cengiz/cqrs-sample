@@ -28,6 +28,17 @@ namespace BookStorage.Application.DependencyResolver
                         .AsImplementedInterfaces()
                         .WithSingletonLifetime();
             });
+
+            services.Scan(selector =>
+            {
+                selector.FromCallingAssembly()
+                        .AddClasses(filter =>
+                        {
+                            filter.AssignableTo(typeof(IQueryHandler<,>));
+                        })
+                        .AsImplementedInterfaces()
+                        .WithSingletonLifetime();
+            });
         }
     }
 }

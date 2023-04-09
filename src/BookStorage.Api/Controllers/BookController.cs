@@ -20,6 +20,13 @@ namespace BookStorage.Api.Controllers
             _commandDispatcher = commandDispatcher;
         }
 
+        [HttpGet]
+        public async Task<ActionResult> GetAll(CancellationToken cancellationToken)
+        {
+            var list = await _queryDispatcher.Dispatch<GetAllBooksQuery, IReadOnlyCollection<BookReadDto>>(new GetAllBooksQuery(), cancellationToken);
+            return Ok(list);
+        }
+
         [HttpPost]
         public async Task<ActionResult> Create(BookWriteDto dto, CancellationToken cancellationToken)
         {

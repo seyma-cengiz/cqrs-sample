@@ -12,6 +12,11 @@ namespace BookStorage.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
+        public async Task<IEnumerable<Book>> GetAllAsync()
+        {
+            return await _dbContext.Books.ToListAsync();
+        }
+
         public async Task<int> AddBookAsync(Book entity)
         {
             await _dbContext.Books.AddAsync(entity);
