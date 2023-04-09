@@ -1,4 +1,5 @@
 using BookStorage.Application.DependencyResolver;
+using BookStorage.Infrastructure.DependencyResolver;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddApplication();
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 

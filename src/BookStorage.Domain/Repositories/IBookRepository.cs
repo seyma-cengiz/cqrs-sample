@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using BookStorage.Domain.Entities;
 
 namespace BookStorage.Domain.Repositories
 {
     public interface IBookRepository
     {
-        
+        Task<int> AddBookAsync(Book entity);
     }
 }

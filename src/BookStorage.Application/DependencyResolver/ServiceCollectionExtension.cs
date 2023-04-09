@@ -4,11 +4,6 @@ using BookStorage.Application.Queries;
 using BookStorage.Application.Queries.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookStorage.Application.DependencyResolver
 {
@@ -22,6 +17,17 @@ namespace BookStorage.Application.DependencyResolver
 
             services.TryAddSingleton<ICommandDispatcher, CommandDispatcher>();
             services.TryAddSingleton<IQueryDispatcher, QueryDispatcher>();
+
+            services.Scan(selector =>
+            {
+                selector.FromCallingAssembly()
+                        .AddClasses(filter =>
+                        {
+                            filter.AssignableTo(typeof(ICommandHandler<,>));
+                        })
+                        .AsImplementedInterfaces()
+                        .WithSingletonLifetime();
+            });
         }
     }
 }
